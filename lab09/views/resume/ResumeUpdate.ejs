@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume - Update</title>
+</head>
+<body>
+<h1>Update Existing Resume</h1>
+<form action="/resume/update" method="get">
+    <input type="hidden"
+           id="resume_id"
+           name="resume_id"
+           value="<%= resume.resume_id %>"
+    />
+    Account ID:
+    <input
+            id="resume_id"
+            name="account_id"
+            type="text"
+            value="<%= resume.account_id %>"
+    />
+    <br />
+    Resume Name:
+    <input
+            id="resume_id"
+            name="resume_name"
+            type="text"
+            value="<%= resume.resume_name %>"
+    />
+    <br />
+    <input type="submit" />
+
+</form>
+</body>
+</html>

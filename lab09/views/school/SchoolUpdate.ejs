@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School - Update</title>
+</head>
+<body>
+<h1>Update Existing School</h1>
+<form action="/school/update" method="get">
+    <input type="hidden"
+           id="school_id"
+           name="school_id"
+           value="<%= school.school_id %>"
+    />
+    School Name:
+    <input
+            id="school_id"
+            name="school_name"
+            type="text"
+            value="<%= school.school_name %>"
+    />
+    <br />
+    School Address:
+    <input
+            id="school_id"
+            name="address_id"
+            type="text"
+            value="<%= school.address_id %>"
+    />
+    <br />
+    <input type="submit" />
+
+</form>
+</body>
+</html>

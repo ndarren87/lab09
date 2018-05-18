@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Address - Update</title>
+</head>
+<body>
+<h1>Update Existing Address</h1>
+<form action="/address/update" method="get">
+    <input type="hidden"
+           id="address_id"
+           name="adress_id"
+           value="<%= address.address_id %>"
+    />
+    Street Name:
+    <input
+            id="address_id"
+            name="street"
+            type="text"
+            value="<%= address.street %>"
+            />
+    <br />
+    Description:
+    <input
+            id="address_id"
+            name="zip_code"
+            type="text"
+            value="<%= address.zip_code %>"
+    />
+    <br />
+    <input type="submit" />
+
+</form>
+</body>
+</html>
